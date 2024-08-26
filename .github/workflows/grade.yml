@@ -29,7 +29,7 @@ jobs:
       
     - name: Test
       id: test
-      uses: cs272-f24/action-go-grade
+      uses: cs272-0304-f23/action-go-grade@v0.3.4
       if: always()
       with:
         rubricUrl: 'https://cs272-f24.github.io/rubric/lab02.json'
